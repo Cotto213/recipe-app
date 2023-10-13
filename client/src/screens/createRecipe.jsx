@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Home from './home';
+import Nav from '../components/nav';
 
 const CreateRecipe = () => {
     const [recipeName, setRecipeName] = useState('');
@@ -17,7 +17,7 @@ const CreateRecipe = () => {
           
 
 <section class="bg-gray-300 dark:bg-gray-900">
-<Home />
+<Nav />
 <div class="flex flex-col justify-center text-center pt-4" >
 <h1 class="mb-4 text-6xl font-extrabold leading-none tracking-tight text-[#24140b] md:text-6xl lg:text-7xl dark:text-white">Create your recipes!</h1>
 <p class="mb-6 text-lg font-bold  lg:text-2xl sm:px-16 xl:px-48 dark:text-gray-400">

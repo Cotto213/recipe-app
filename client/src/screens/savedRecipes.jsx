@@ -3,7 +3,7 @@ import React from 'react';
 import Nav from '../components/nav';
 import Auth from '../screens/auth';
 
-const savedRecipes = ()=> {
+const SavedRecipes = ()=> {
     return (
         <div>
          
@@ -16,4 +16,4 @@ const savedRecipes = ()=> {
     );
 }
 
-export default savedRecipes;
+export default SavedRecipes;

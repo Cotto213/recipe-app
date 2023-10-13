@@ -7,7 +7,7 @@ const Nav = () => {
     return (
         <nav class="text-gray-600 body-font bg-[#191717] w-full z-20 top-0 left-0 border-b border-gray-200 ">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href='#' class="flex items-center text-5xl font-extrabold text-white">Recipe
+                <a href='../screens/home.jsx' class="flex items-center text-5xl font-extrabold text-white">Recipe
                     <span class="
           bg-yellow-200 text-black text-2xl font-semibold mr-2 px-2.5 py-0.5 rounded ml-2"> App</span>
                 </a>
